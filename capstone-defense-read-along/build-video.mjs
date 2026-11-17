@@ -6,6 +6,7 @@
 import { readFileSync, writeFileSync } from "node:fs";
 
 const cfg = JSON.parse(readFileSync("video.config.json", "utf8"));
+const cues = JSON.parse(readFileSync("cues.json", "utf8"));
 const meta = JSON.parse(readFileSync("scenes.json", "utf8"));
 const src = readFileSync("slides-source.html", "utf8");
 
@@ -36,6 +37,8 @@ function kineticize(html) {
       `<span class="dg"><span class="strip" data-d="${d}">${strip}</span></span>`).join("");
     return o + `<span class="odo" aria-label="${num}%">${digits}%</span>` + c;
   });
+  // Tables: put the white fill on the rows, so rows that have not appeared yet leave no empty box.
+  html = html.replace(/(<table class="a" style="[^"]*);background:#FFFEFA"/g, '$1"');
   return html;
 }
 
@@ -74,25 +77,39 @@ for (const s of meta.scenes) {
   const caps = chunks.map((ch) => {
     const speak = ch.words.length * SPW;
     const dur = speak + (ch.sentenceEnd ? cfg.sentence_pause_seconds : cfg.clause_pause_seconds);
-    const cap = { t0: r2(c), t1: r2(c + dur), speak: r2(speak), text: ch.words.join(" ") };
+    // Each word lights up in proportion to its length across the phrase's speaking time.
+    const lens = ch.words.map((w) => w.length + 1);
+    const totalLen = lens.reduce((a, b) => a + b, 0);
+    let acc = 0;
+    const at = lens.map((l) => { const x = r2(c + 0.12 + (acc / totalLen) * speak); acc += l; return x; });
+    const cap = { t0: r2(c), t1: r2(c + dur), speak: r2(speak), text: ch.words.join(" "), at };
     c += dur;
     return cap;
   });
   const duration = Math.ceil((c + cfg.tail_seconds) * 10) / 10;
-  scenesOut.push({ s, start: r2(t), duration, caps });
+  // Resolve cue phrases to the time their first word lights up.
+  const norm = (w) => w.toLowerCase().replace(/[^a-z0-9]/g, "");
+  const words = caps.flatMap((cp) => cp.text.split(" ").map((w, i) => ({ w: norm(w), at: cp.at[i] })));
+  const sceneCues = (cues[s.scene] || []).map(([target, phrase, fx]) => {
+    const ph = phrase.split(/\s+/).map(norm);
+    const i = words.findIndex((_, k) => ph.every((p, j) => words[k + j]?.w === p));
+    if (i < 0) throw new Error(`Scene ${s.scene}: cue phrase not found in narration: "${phrase}"`);
+    return { target, fx, t: words[i].at };
+  });
+  scenesOut.push({ s, start: r2(t), duration, caps, cues: sceneCues });
   t += duration;
 }
 const total = r2(t);
 
 // ---------- 5. write index.html ----------
-const sceneHtml = scenesOut.map(({ s, start, duration, caps }) => {
+const sceneHtml = scenesOut.map(({ s, start, duration, caps, cues }) => {
   let frame = kineticize(frames[s.scene]);
   if (cfg.adviser_name) frame = frame.replace("[Adviser name]", esc(cfg.adviser_name));
   const capHtml = caps.map((c) => {
-    const words = c.text.split(" ").map((w) => `<span class="w">${esc(w)}</span>`).join(" ");
+    const words = c.text.split(" ").map((w, i) => `<span class="w" data-at="${c.at[i]}"><span class="wi">${esc(w)}</span></span>`).join(" ");
     return `    <div class="cap" data-t0="${c.t0}" data-t1="${c.t1}" data-speak="${c.speak}"><p>${words}</p></div>`;
   }).join("\n");
-  return `  <div class="clip scene" data-scene="${s.scene}" data-start="${start}" data-duration="${duration}" data-track-index="0">
+  return `  <div class="clip scene" data-scene="${s.scene}" data-start="${start}" data-duration="${duration}" data-track-index="0" data-cues='${esc(JSON.stringify(cues))}'>
    <div class="slide-pos"><div class="slide-anim"><div class="slide-drift">
    ${frame}
    </div></div></div>
@@ -125,6 +142,9 @@ const head = src.slice(0, src.indexOf("<body>"))
   .cap { position:absolute; left:0; top:0; width:1600px; height:156px; display:flex; align-items:center; justify-content:center; opacity:0; }
   .cap p { margin:0; max-width:1500px; text-align:center; font-family:'Inter', Arial, sans-serif; font-size:38px; font-weight:500; line-height:1.28; color:#F4F1E8; }
   .cap .w { display:inline-block; }
+  .cap .wi { display:inline-block; opacity:0.32; }
+  .scene table.a tr { background:#FFFEFA; }
+  .fxw { display:inline-block; }
 </style>`)
   .replace(/<title>[^<]*<\/title>/, "<title>Capstone Defense Read-Along</title>");
 
@@ -150,10 +170,11 @@ meta.words_per_minute = cfg.words_per_minute;
 meta.lead_in_seconds = cfg.lead_in_seconds;
 meta.tail_seconds = cfg.tail_seconds;
 meta.note = "Durations come from narration length at words_per_minute plus pauses (build-video.mjs). No voiceover is used.";
-meta.scenes = scenesOut.map(({ s, start, duration, caps }) => {
-  const { audio_file, audio_offset, estimated_audio_seconds, audio_seconds, start: _a, duration: _b, captions: _c, ...rest } = s;
+meta.scenes = scenesOut.map(({ s, start, duration, caps, cues }) => {
+  const { audio_file, audio_offset, estimated_audio_seconds, audio_seconds, start: _a, duration: _b, captions: _c, slide_cues: _d, ...rest } = s;
   return { scene: s.scene, slide_id: s.slide_id, start, duration, ...rest,
-    captions: caps.map(({ t0, t1, text }) => ({ t0, t1, text })) };
+    captions: caps.map(({ t0, t1, text }) => ({ t0, t1, text })),
+    slide_cues: cues };
 });
 writeFileSync("scenes.json", JSON.stringify(meta, null, 2) + "\n");
 
