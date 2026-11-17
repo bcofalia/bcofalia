@@ -143,6 +143,7 @@ const head = src.slice(0, src.indexOf("<body>"))
   .cap p { margin:0; max-width:1500px; text-align:center; font-family:'Inter', Arial, sans-serif; font-size:38px; font-weight:500; line-height:1.28; color:#F4F1E8; }
   .cap .w { display:inline-block; }
   .cap .wi { display:inline-block; opacity:0.32; }
+  .scene table.a { border-collapse:separate; border-spacing:0; }
   .scene table.a tr { background:#FFFEFA; }
   .fxw { display:inline-block; }
 </style>`)
