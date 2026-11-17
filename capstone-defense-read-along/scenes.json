@@ -11,10 +11,10 @@
       "scene": "01",
       "slide_id": "cover",
       "start": 0,
-      "duration": 54.5,
+      "duration": 55.9,
       "words": 104,
-      "narration": "Good day, members of the panel. I am Teddy Javines, a candidate in the Engineering Management program and the owner of a construction firm that has recently begun work in renewable energy. My capstone asks a question I face in my own business: how can a contractor take on more renewable energy work without growing the payroll at the same pace? My proposed answer is automation, chosen and sequenced on evidence. In the next few minutes I will cover why this matters now, what I will ask, how I will answer it using published evidence and current policy, and what the study will deliver.",
-      "tts_text": "Good day, members of the panel. I am Teddy Javines, a candidate in the Engineering Management program and the owner of a construction firm that has recently begun work in renewable energy. My capstone asks a question I face in my own business: how can a contractor take on more renewable energy work without growing the payroll at the same pace? My proposed answer is automation, chosen and sequenced on evidence. In the next few minutes I will cover why this matters now, what I will ask, how I will answer it using published evidence and current policy, and what the study will deliver.",
+      "narration": "Good day, members of the panel. I am Teddy Javines, a candidate in the Master’s in Engineering Management program. Outside the classroom, I manage a mid-size construction company that hopes to grow into renewable energy. My capstone asks a question I face in my own business: how can a contractor take on more renewable energy work without growing the payroll at the same pace? My proposed answer is automation, chosen and sequenced on evidence. In the next few minutes I will cover why this matters now, what I will ask, how I will answer it using published evidence and current policy, and what the study will deliver.",
+      "tts_text": "Good day, members of the panel. I am Teddy Javines, a candidate in the Master’s in Engineering Management program. Outside the classroom, I manage a mid-size construction company that hopes to grow into renewable energy. My capstone asks a question I face in my own business: how can a contractor take on more renewable energy work without growing the payroll at the same pace? My proposed answer is automation, chosen and sequenced on evidence. In the next few minutes I will cover why this matters now, what I will ask, how I will answer it using published evidence and current policy, and what the study will deliver.",
       "captions": [
         {
           "t0": 1.6,
@@ -23,52 +23,47 @@
         },
         {
           "t0": 4.82,
-          "t1": 6.87,
-          "text": "I am Teddy Javines,"
+          "t1": 11.27,
+          "text": "I am Teddy Javines, a candidate in the Master’s in Engineering Management program."
         },
         {
-          "t0": 6.87,
-          "t1": 13.53,
-          "text": "a candidate in the Engineering Management program and the owner of a construction firm"
+          "t0": 11.27,
+          "t1": 19.1,
+          "text": "Outside the classroom, I manage a mid-size construction company that hopes to grow into renewable energy."
         },
         {
-          "t0": 13.53,
-          "t1": 17.67,
-          "text": "that has recently begun work in renewable energy."
-        },
-        {
-          "t0": 17.67,
-          "t1": 22.95,
+          "t0": 19.1,
+          "t1": 24.38,
           "text": "My capstone asks a question I face in my own business:"
         },
         {
-          "t0": 22.95,
-          "t1": 27.3,
+          "t0": 24.38,
+          "t1": 28.73,
           "text": "how can a contractor take on more renewable energy"
         },
         {
-          "t0": 27.3,
-          "t1": 31.9,
+          "t0": 28.73,
+          "t1": 33.34,
           "text": "work without growing the payroll at the same pace?"
         },
         {
-          "t0": 31.9,
-          "t1": 36.97,
+          "t0": 33.34,
+          "t1": 38.4,
           "text": "My proposed answer is automation, chosen and sequenced on evidence."
         },
         {
-          "t0": 36.97,
-          "t1": 44.55,
+          "t0": 38.4,
+          "t1": 45.99,
           "text": "In the next few minutes I will cover why this matters now, what I will ask,"
         },
         {
-          "t0": 44.55,
-          "t1": 49.83,
+          "t0": 45.99,
+          "t1": 51.27,
           "text": "how I will answer it using published evidence and current policy,"
         },
         {
-          "t0": 49.83,
-          "t1": 53.05,
+          "t0": 51.27,
+          "t1": 54.48,
           "text": "and what the study will deliver."
         }
       ],
@@ -76,7 +71,7 @@
         {
           "target": "5",
           "fx": "fade",
-          "t": 6.99
+          "t": 6.39
         },
         {
           "target": "3",
@@ -91,14 +86,14 @@
         {
           "target": "2",
           "fx": "words",
-          "t": 46.29
+          "t": 47.72
         }
       ]
     },
     {
       "scene": "02",
       "slide_id": "context",
-      "start": 54.5,
+      "start": 55.9,
       "duration": 55.4,
       "words": 106,
       "narration": "The Philippines has set clear targets: a 35 percent renewable share of power generation by 2030, and 50 percent by 2040. The Department of Energy reports that the share reached about 25 percent at the end of 2025, up from about 22 percent. Earlier this year the DOE announced a ten-year Green Energy Auction program to offer at least 25 gigawatts of new capacity by 2035. Behind every one of those gigawatts is construction work: engineering and procurement, civil works, installation, and later, operations and maintenance. For a Philippine contractor, this is a growth market that sits close to what we already know how to do.",
@@ -191,7 +186,7 @@
     {
       "scene": "03",
       "slide_id": "problem",
-      "start": 109.9,
+      "start": 111.3,
       "duration": 59.4,
       "words": 110,
       "narration": "The industry that has to deliver this work has two constraints. The first is productivity. Globally, construction labor productivity grew about 1 percent a year for two decades, against 2.8 percent for the whole economy. Here at home, our own trade officials have linked low construction productivity to low adoption of digital technology. The second constraint is people. Industry groups keep reporting shortages of skilled workers. So if my firm grows only by hiring, I compete with every other contractor for the same scarce crews, and I add supervision and strain to my core business. The way out is to raise output per person. That is where automation comes in.",
@@ -289,7 +284,7 @@
     {
       "scene": "04",
       "slide_id": "gap",
-      "start": 169.3,
+      "start": 170.7,
       "duration": 56.4,
       "words": 108,
       "narration": "When I looked at what has been published, I found two bodies of work that do not meet. Research on construction automation concentrates on the technology and on barriers to adoption, mostly in large firms and advanced economies. Research on renewable energy concentrates on developers, technology and policy. What I did not find is guidance for someone in my position: a mid-size contractor in a developing economy who must decide which automation to adopt first in order to scale into renewable work. My preliminary search found no such study for the Philippines. The systematic review will confirm or correct that claim, and I will report it either way.",
@@ -367,7 +362,7 @@
     {
       "scene": "05",
       "slide_id": "questions",
-      "start": 225.7,
+      "start": 227.1,
       "duration": 50,
       "words": 95,
       "narration": "The study asks four questions, and they build on each other. First, what does the published literature report about automation in construction, and what results does it show for productivity, cost, schedule, safety and labor? Second, which of those options apply to renewable energy construction? Third, what do current Philippine policies, standards and industry trends enable or constrain? The first three questions gather evidence. The fourth is the decision question, and it is the one an owner cares about: which options should a mid-size contractor adopt first, in what order, and under what decision gates?",
@@ -440,7 +435,7 @@
     {
       "scene": "06",
       "slide_id": "objective",
-      "start": 275.7,
+      "start": 277.1,
       "duration": 51.4,
       "words": 96,
       "narration": "The general objective is to develop an evidence-based automation roadmap that lets a mid-size Philippine construction firm scale into renewable energy work without matching growth in headcount. Five specific objectives follow from the questions. One, systematically review the literature on construction automation and its outcomes. Two, classify the options relevant to renewable energy construction. Three, analyze current Philippine policy and trends. Four, build a priority matrix that scores each option. Five, develop a phased roadmap with decision gates and have experts review it. Each objective produces a deliverable that I will show at the final defense.",
@@ -513,7 +508,7 @@
     {
       "scene": "07",
       "slide_id": "framework",
-      "start": 327.1,
+      "start": 328.5,
       "duration": 54.8,
       "words": 103,
       "narration": "This is the conceptual framework. Two independent streams of evidence feed one decision tool. Stream A is a systematic literature review. Stream B is an analysis of Philippine policy and industry trends. Both feed an automation priority matrix that scores each option on payoff, effort, readiness and policy fit. The matrix produces a phased roadmap with decision gates, and a panel of experts reviews that roadmap. The theoretical lens is dynamic capabilities, from Teece: a firm sustains performance by sensing opportunities, seizing them and reconfiguring its resources. Here, the two streams are the sensing, the matrix supports seizing, and the roadmap guides reconfiguring.",
@@ -646,7 +641,7 @@
     {
       "scene": "08",
       "slide_id": "scope",
-      "start": 381.9,
+      "start": 383.3,
       "duration": 58,
       "words": 110,
       "narration": "My firm’s renewable project is still being defined, so I set four rules that keep the scope workable. One: renewable energy construction is defined by the work a contractor performs, namely EPC, civil and balance-of-plant, installation, and operations and maintenance, and not by technology. Two: every study is tagged by technology, so the evidence can be filtered later without repeating the review. Three: solar and wind are the priority examples. Four: there is a scope-confirmed checkpoint. Once my project is defined, the roadmap is tailored to it. The study uses published and public sources only. There are no surveys and no interviews, and artificial intelligence is not a separate focus.",
@@ -739,7 +734,7 @@
     {
       "scene": "09",
       "slide_id": "method-a",
-      "start": 439.9,
+      "start": 441.3,
       "duration": 61.2,
       "words": 117,
       "narration": "Stream A answers the first two questions. It is a systematic literature review reported under the PRISMA 2020 statement, with a protocol registered before screening begins. I will search Scopus, Web of Science, IEEE Xplore and ScienceDirect, using three blocks of terms: automation, construction, and renewable energy. Studies qualify if they are peer-reviewed, in English, published from 2015 to 2026, and report at least one outcome. Two screeners will work independently on a sample, and I will report their agreement. Each included study is appraised with the Mixed Methods Appraisal Tool. I do not plan a meta-analysis, because outcomes will differ too much to pool. The synthesis is narrative, organized by automation family and type of work.",
@@ -847,7 +842,7 @@
     {
       "scene": "10",
       "slide_id": "method-b",
-      "start": 501.1,
+      "start": 502.5,
       "duration": 62.6,
       "words": 120,
       "narration": "Stream B answers the third question. It is a structured document analysis of current Philippine policy and industry trends. I will collect documents in five categories: energy policy, construction policy, labor and skills, trade and incentives, and industry trends. Wherever possible each document comes from the issuing body’s own website. Every source goes into a policy register with its issue date and retrieval date, what it requires or offers, and whether it acts as an enabler, a constraint or neither for each kind of automation. Industry and trade sources are appraised with the AACODS checklist for grey literature. Vendor claims are recorded as claims, never as findings. Because policy moves quickly, the register is refreshed once before the final defense.",
@@ -950,7 +945,7 @@
     {
       "scene": "11",
       "slide_id": "matrix",
-      "start": 563.7,
+      "start": 565.1,
       "duration": 63.3,
       "words": 121,
       "narration": "The two streams meet in the automation priority matrix, which answers the fourth question. Each automation option is scored from one to five on four criteria. Payoff: how much it raises output per person, or cuts cost and time. Effort: the capital, skills and change it demands. Readiness: whether it is mature and available to a Philippine contractor today. Policy fit: whether current policy helps or hinders it. Every score cites the evidence rows it rests on, so the panel can trace any number back to its source. The criteria start with equal weights, and a sensitivity check shows which rankings hold when the weights change. Options with thin evidence are shown separately, so a score never hides a weak base.",
@@ -1043,7 +1038,7 @@
     {
       "scene": "12",
       "slide_id": "roadmap",
-      "start": 627,
+      "start": 628.4,
       "duration": 62.6,
       "words": 120,
       "narration": "The ranked options are arranged into a roadmap of three phases. Foundation covers options with high payoff and low effort, which I expect to be digital project controls and back-office automation. Pilot tests one or two site-level options on a single project. Scale rolls out what has been proven. Between phases there is a gate with written criteria, and at each gate the firm decides to go, hold or stop. This protects the core business: we do not commit capital to the next phase until the current one has delivered. I want to be clear that the phase contents on this slide are placeholders. The real contents come from the matrix, and are tailored once my project scope is confirmed.",
@@ -1156,7 +1151,7 @@
     {
       "scene": "13",
       "slide_id": "rigor",
-      "start": 689.6,
+      "start": 691,
       "duration": 59.8,
       "words": 114,
       "narration": "I own the firm this roadmap is meant to serve, so I want to address bias directly. First, the evidence is external. It comes from published studies and public policy documents, appraised with standard tools, and not from my own account of my company. Second, five to seven experts review the matrix and roadmap: contractors with renewable experience, an energy practitioner, and academics. Third, any research assistance and any AI tools used for screening or extraction are disclosed in the method, and a person verifies every included study against the original. I set the questions and criteria, I decide the scores, and I defend the work. Fourth, every policy source carries its retrieval date.",
@@ -1249,7 +1244,7 @@
     {
       "scene": "14",
       "slide_id": "plan",
-      "start": 749.4,
+      "start": 750.8,
       "duration": 54.6,
       "words": 104,
       "narration": "The work is planned over about six months from approval. In the first month I finalize and register the protocol, pilot the search strings and start the policy register. Months two and three are the searching, screening, appraisal and extraction. Month four is synthesis of both streams, and it includes the scope-confirmed checkpoint with my firm. Month five is the roadmap and the expert review. Month six is the refresh of the policy register, the write-up and the final defense. I will align these months with the university’s term calendar after today, and I welcome the panel’s guidance on whether this pace is realistic.",
@@ -1352,7 +1347,7 @@
     {
       "scene": "15",
       "slide_id": "outputs",
-      "start": 804,
+      "start": 805.4,
       "duration": 61.9,
       "words": 117,
       "narration": "The capstone delivers five things. A systematic review with its PRISMA flow diagram and evidence tables. A dated register of Philippine policy and trends. The automation priority matrix with its sensitivity check. A phased roadmap with gates, reviewed by experts, which my firm can use. And a short practice-oriented paper drawn from the capstone for an engineering management journal. I also state the limits now. The study depends on what has been published, and most evidence comes from other countries and larger firms, so transfer to a mid-size Philippine contractor is argued and not measured. Scores involve judgment, which is why every score cites its evidence. And the roadmap is expert-reviewed, not field-tested, within the capstone period.",
@@ -1480,7 +1475,7 @@
     {
       "scene": "16",
       "slide_id": "close",
-      "start": 865.9,
+      "start": 867.3,
       "duration": 20.3,
       "words": 34,
       "narration": "To close: this study answers one practical question, which automation first, in what order, and under what gates, using published evidence and current Philippine policy. Thank you. I welcome the panel’s questions and guidance.",
@@ -1531,7 +1526,7 @@
       ]
     }
   ],
-  "total_seconds": 886.2,
+  "total_seconds": 887.6,
   "mode": "read-along kinetic text, no audio",
   "words_per_minute": 130
 }
