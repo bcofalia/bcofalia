@@ -1,0 +1,10 @@
+{
+  "adviser_name": null,
+  "words_per_minute": 130,
+  "lead_in_seconds": 1.6,
+  "tail_seconds": 1.4,
+  "sentence_pause_seconds": 0.45,
+  "clause_pause_seconds": 0.2,
+  "max_words_per_caption": 16,
+  "fps": 30
+}
