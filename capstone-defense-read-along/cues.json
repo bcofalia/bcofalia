@@ -1,0 +1,132 @@
+{
+  "_help": "Per scene: [target, narration phrase, effect]. The target appears as the read-along highlight reaches the first word of the phrase. Targets: 'n' = nth animated slide element (see build output), 'n.trK' = table row K, 'n.liK' = list item K, 'n>K' = Kth child box. Effects: rise, pop, slide, zoom, fade, drop, wipe, words. Elements without a cue (label, title, footer) open the scene.",
+  "01": [
+    ["5", "a candidate in the Engineering", "fade"],
+    ["3", "I am Teddy Javines", "wipe"],
+    ["4", "I am Teddy Javines", "slide"],
+    ["2", "using published evidence and current policy", "words"]
+  ],
+  "02": [
+    ["3", "a 35 percent", "pop"],
+    ["4", "and 50 percent", "pop"],
+    ["6", "The Department of Energy reports", "fade"],
+    ["2", "about 25 percent", "pop"],
+    ["5", "to offer at least 25 gigawatts", "words"]
+  ],
+  "03": [
+    ["2", "Globally, construction labor productivity", "pop"],
+    ["5", "Globally, construction labor productivity", "fade"],
+    ["3", "The second constraint is people", "slide"],
+    ["4", "The way out is to raise", "words"]
+  ],
+  "04": [
+    ["2", "Research on construction automation", "rise"],
+    ["3", "Research on renewable energy", "rise"],
+    ["4", "What I did not find", "zoom"]
+  ],
+  "05": [
+    ["2", "First, what does", "pop"],
+    ["3", "Second, which of those", "pop"],
+    ["4", "Third, what do current", "pop"],
+    ["5", "The fourth is the decision", "zoom"]
+  ],
+  "06": [
+    ["1", "to develop an evidence-based", "words"],
+    ["2", "Five specific objectives follow", "words"]
+  ],
+  "07": [
+    ["2>0", "Stream A is", "slide"],
+    ["2>1", "Stream B is", "slide"],
+    ["3", "Both feed an", "wipe"],
+    ["4", "Both feed an automation priority matrix", "pop"],
+    ["4.li0", "on payoff", "rise"],
+    ["4.li1", "effort, readiness", "rise"],
+    ["4.li2", "readiness and policy", "rise"],
+    ["4.li3", "and policy fit", "rise"],
+    ["5", "The matrix produces", "wipe"],
+    ["6>0", "a phased roadmap with decision gates", "pop"],
+    ["6>1", "a panel of experts", "rise"],
+    ["7", "The theoretical lens is", "words"],
+    ["8", "dynamic capabilities, from Teece", "fade"]
+  ],
+  "08": [
+    ["2", "One: renewable energy construction", "rise"],
+    ["3", "Two: every study", "rise"],
+    ["4", "Three: solar and wind", "rise"],
+    ["5", "Four: there is", "rise"],
+    ["6", "The study uses published", "words"]
+  ],
+  "09": [
+    ["2.tr0", "It is a systematic", "fade"],
+    ["2.tr1", "under the PRISMA 2020", "slide"],
+    ["3", "under the PRISMA 2020", "fade"],
+    ["2.tr2", "I will search Scopus", "slide"],
+    ["2.tr3", "Studies qualify if", "slide"],
+    ["2.tr4", "Two screeners will", "slide"],
+    ["2.tr5", "Each included study", "slide"],
+    ["2.tr6", "The synthesis is narrative", "slide"]
+  ],
+  "10": [
+    ["2.tr0", "I will collect documents", "fade"],
+    ["2.tr1", "categories: energy policy", "slide"],
+    ["2.tr2", "construction policy, labor", "slide"],
+    ["2.tr3", "labor and skills", "slide"],
+    ["2.tr4", "trade and incentives", "slide"],
+    ["2.tr5", "and industry trends. Wherever", "slide"],
+    ["3", "Every source goes into", "words"]
+  ],
+  "11": [
+    ["2", "Payoff: how much", "pop"],
+    ["3", "Effort: the capital", "pop"],
+    ["4", "Readiness: whether it", "pop"],
+    ["5", "Policy fit: whether", "pop"],
+    ["6", "Every score cites", "words"]
+  ],
+  "12": [
+    ["2", "Foundation covers", "pop"],
+    ["3", "Pilot tests", "wipe"],
+    ["4", "Pilot tests", "pop"],
+    ["5", "Scale rolls out", "wipe"],
+    ["6", "Scale rolls out", "pop"],
+    ["2>4", "there is a gate with", "rise"],
+    ["4>4", "there is a gate with", "rise"],
+    ["6>4", "there is a gate with", "rise"],
+    ["7", "at each gate the firm", "words"]
+  ],
+  "13": [
+    ["2", "First, the evidence", "rise"],
+    ["3", "Second, five to seven", "rise"],
+    ["4", "Third, any research", "rise"],
+    ["5", "Fourth, every policy", "rise"]
+  ],
+  "14": [
+    ["2.tr0", "The work is planned", "fade"],
+    ["2.tr1", "from approval", "slide"],
+    ["2.tr2", "In the first month", "slide"],
+    ["2.tr3", "Months two and three", "slide"],
+    ["2.tr4", "and three are", "slide"],
+    ["2.tr5", "Month four is", "slide"],
+    ["2.tr6", "Month five is", "slide"],
+    ["2.tr7", "Month six is", "slide"],
+    ["3", "I will align these months", "fade"]
+  ],
+  "15": [
+    ["2", "The capstone delivers five", "rise"],
+    ["2.li0", "A systematic review with", "slide"],
+    ["2.li1", "A dated register", "slide"],
+    ["2.li2", "The automation priority matrix with", "slide"],
+    ["2.li3", "A phased roadmap with", "slide"],
+    ["2.li4", "And a short practice-oriented", "slide"],
+    ["3", "I also state the limits", "zoom"],
+    ["3.li0", "The study depends on", "rise"],
+    ["3.li1", "most evidence comes from", "rise"],
+    ["3.li2", "Scores involve judgment", "rise"],
+    ["3.li3", "And the roadmap is expert-reviewed", "rise"]
+  ],
+  "16": [
+    ["2", "To close", "wipe"],
+    ["3", "which automation first", "words"],
+    ["0", "Thank you", "drop"],
+    ["1", "Thank you", "words"]
+  ]
+}

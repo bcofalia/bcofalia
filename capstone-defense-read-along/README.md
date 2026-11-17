@@ -1,6 +1,8 @@
 # Capstone defense: read-along kinetic text video
 
-**Finished video:** [`video/capstone-defense.mp4`](video/capstone-defense.mp4) (14:46, 1920×1080, 30 fps, silent, 53 MB).
+**Finished videos:**
+- [`video/capstone-defense-v2.mp4`](video/capstone-defense-v2.mp4) (v2, latest): every slide element appears on its narration cue. 14:46, 1920×1080, 30 fps, silent.
+- [`video/capstone-defense.mp4`](video/capstone-defense.mp4) (v1): slide elements all animate in at the start of each scene.
 
 A silent 1920×1080, 30 fps motion-graphics video of the 16-slide proposal defense deck.
 There is no voiceover and no music. Each slide animates in, and the narration shows
@@ -13,11 +15,12 @@ minute) so the presenter can read along while the video plays.
 | --- | --- |
 | `slides-source.html` | The original deck (16 slides). Edit slide text here. |
 | `scenes.json` | Narration per scene. Timing and caption chunks are written back here by the build. |
+| `cues.json` | When each slide element appears: the narration words it waits for and its entrance effect. |
 | `video.config.json` | Reading pace, pauses, caption length and the adviser name for slide 1. |
 | `build-video.mjs` | Builds `index.html` from the three files above and computes all timing. |
 | `index.html` + `kinetic.js` | The generated composition. One paused GSAP timeline at `window.__timelines["capstone-defense"]`. |
 | `render.mjs` | Seeks the timeline frame by frame in headless Chromium and encodes with FFmpeg. |
-| `video/capstone-defense.mp4` | The rendered video. |
+| `video/` | The rendered videos (v1 and v2). |
 | `QA-prep-not-narrated.md` | Rehearsal notes only. Not used in the video. |
 
 ## Commands

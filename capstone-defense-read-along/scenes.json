@@ -71,6 +71,28 @@
           "t1": 53.05,
           "text": "and what the study will deliver."
         }
+      ],
+      "slide_cues": [
+        {
+          "target": "5",
+          "fx": "fade",
+          "t": 6.99
+        },
+        {
+          "target": "3",
+          "fx": "wipe",
+          "t": 4.94
+        },
+        {
+          "target": "4",
+          "fx": "slide",
+          "t": 4.94
+        },
+        {
+          "target": "2",
+          "fx": "words",
+          "t": 46.29
+        }
       ]
     },
     {
@@ -136,6 +158,33 @@
           "t0": 46.14,
           "t1": 53.97,
           "text": "this is a growth market that sits close to what we already know how to do."
+        }
+      ],
+      "slide_cues": [
+        {
+          "target": "3",
+          "fx": "pop",
+          "t": 4.69
+        },
+        {
+          "target": "4",
+          "fx": "pop",
+          "t": 9.59
+        },
+        {
+          "target": "6",
+          "fx": "fade",
+          "t": 12.06
+        },
+        {
+          "target": "2",
+          "fx": "pop",
+          "t": 16.69
+        },
+        {
+          "target": "5",
+          "fx": "words",
+          "t": 28.8
         }
       ]
     },
@@ -213,6 +262,28 @@
           "t1": 57.93,
           "text": "That is where automation comes in."
         }
+      ],
+      "slide_cues": [
+        {
+          "target": "2",
+          "fx": "pop",
+          "t": 9.54
+        },
+        {
+          "target": "5",
+          "fx": "fade",
+          "t": 9.54
+        },
+        {
+          "target": "3",
+          "fx": "slide",
+          "t": 29.09
+        },
+        {
+          "target": "4",
+          "fx": "words",
+          "t": 50.23
+        }
       ]
     },
     {
@@ -274,6 +345,23 @@
           "t1": 54.95,
           "text": "The systematic review will confirm or correct that claim, and I will report it either way."
         }
+      ],
+      "slide_cues": [
+        {
+          "target": "2",
+          "fx": "rise",
+          "t": 10.68
+        },
+        {
+          "target": "3",
+          "fx": "rise",
+          "t": 20.56
+        },
+        {
+          "target": "4",
+          "fx": "zoom",
+          "t": 25.62
+        }
       ]
     },
     {
@@ -324,6 +412,28 @@
           "t0": 40.71,
           "t1": 48.55,
           "text": "which options should a mid-size contractor adopt first, in what order, and under what decision gates?"
+        }
+      ],
+      "slide_cues": [
+        {
+          "target": "2",
+          "fx": "pop",
+          "t": 7.25
+        },
+        {
+          "target": "3",
+          "fx": "pop",
+          "t": 18.97
+        },
+        {
+          "target": "4",
+          "fx": "pop",
+          "t": 24.04
+        },
+        {
+          "target": "5",
+          "fx": "zoom",
+          "t": 33.71
         }
       ]
     },
@@ -385,6 +495,18 @@
           "t0": 43.46,
           "t1": 49.91,
           "text": "Each objective produces a deliverable that I will show at the final defense."
+        }
+      ],
+      "slide_cues": [
+        {
+          "target": "1",
+          "fx": "words",
+          "t": 3.3
+        },
+        {
+          "target": "2",
+          "fx": "words",
+          "t": 15.03
         }
       ]
     },
@@ -452,6 +574,73 @@
           "t1": 53.34,
           "text": "Here, the two streams are the sensing, the matrix supports seizing, and the roadmap guides reconfiguring."
         }
+      ],
+      "slide_cues": [
+        {
+          "target": "2>0",
+          "fx": "slide",
+          "t": 9.08
+        },
+        {
+          "target": "2>1",
+          "fx": "slide",
+          "t": 12.76
+        },
+        {
+          "target": "3",
+          "fx": "wipe",
+          "t": 18.29
+        },
+        {
+          "target": "4",
+          "fx": "pop",
+          "t": 18.29
+        },
+        {
+          "target": "4.li0",
+          "fx": "rise",
+          "t": 23.02
+        },
+        {
+          "target": "4.li1",
+          "fx": "rise",
+          "t": 24.03
+        },
+        {
+          "target": "4.li2",
+          "fx": "rise",
+          "t": 24.57
+        },
+        {
+          "target": "4.li3",
+          "fx": "rise",
+          "t": 25.25
+        },
+        {
+          "target": "5",
+          "fx": "wipe",
+          "t": 26.79
+        },
+        {
+          "target": "6>0",
+          "fx": "pop",
+          "t": 28.22
+        },
+        {
+          "target": "6>1",
+          "fx": "rise",
+          "t": 31.47
+        },
+        {
+          "target": "7",
+          "fx": "words",
+          "t": 35.28
+        },
+        {
+          "target": "8",
+          "fx": "fade",
+          "t": 36.81
+        }
       ]
     },
     {
@@ -517,6 +706,33 @@
           "t0": 49.2,
           "t1": 56.57,
           "text": "There are no surveys and no interviews, and artificial intelligence is not a separate focus."
+        }
+      ],
+      "slide_cues": [
+        {
+          "target": "2",
+          "fx": "rise",
+          "t": 10.68
+        },
+        {
+          "target": "3",
+          "fx": "rise",
+          "t": 23.33
+        },
+        {
+          "target": "4",
+          "fx": "rise",
+          "t": 32.29
+        },
+        {
+          "target": "5",
+          "fx": "rise",
+          "t": 36.43
+        },
+        {
+          "target": "6",
+          "fx": "words",
+          "t": 45.17
         }
       ]
     },
@@ -584,6 +800,48 @@
           "t1": 59.8,
           "text": "The synthesis is narrative, organized by automation family and type of work."
         }
+      ],
+      "slide_cues": [
+        {
+          "target": "2.tr0",
+          "fx": "fade",
+          "t": 5.4
+        },
+        {
+          "target": "2.tr1",
+          "fx": "slide",
+          "t": 8.63
+        },
+        {
+          "target": "3",
+          "fx": "fade",
+          "t": 8.63
+        },
+        {
+          "target": "2.tr2",
+          "fx": "slide",
+          "t": 14.82
+        },
+        {
+          "target": "2.tr3",
+          "fx": "slide",
+          "t": 25.16
+        },
+        {
+          "target": "2.tr4",
+          "fx": "slide",
+          "t": 34.58
+        },
+        {
+          "target": "2.tr5",
+          "fx": "slide",
+          "t": 41.49
+        },
+        {
+          "target": "2.tr6",
+          "fx": "slide",
+          "t": 53.93
+        }
       ]
     },
     {
@@ -649,6 +907,43 @@
           "t0": 54.73,
           "t1": 61.18,
           "text": "Because policy moves quickly, the register is refreshed once before the final defense."
+        }
+      ],
+      "slide_cues": [
+        {
+          "target": "2.tr0",
+          "fx": "fade",
+          "t": 11.39
+        },
+        {
+          "target": "2.tr1",
+          "fx": "slide",
+          "t": 13.67
+        },
+        {
+          "target": "2.tr2",
+          "fx": "slide",
+          "t": 15.74
+        },
+        {
+          "target": "2.tr3",
+          "fx": "slide",
+          "t": 17.04
+        },
+        {
+          "target": "2.tr4",
+          "fx": "slide",
+          "t": 18.16
+        },
+        {
+          "target": "2.tr5",
+          "fx": "slide",
+          "t": 19.52
+        },
+        {
+          "target": "3",
+          "fx": "words",
+          "t": 26.8
         }
       ]
     },
@@ -716,6 +1011,33 @@
           "t1": 61.9,
           "text": "Options with thin evidence are shown separately, so a score never hides a weak base."
         }
+      ],
+      "slide_cues": [
+        {
+          "target": "2",
+          "fx": "pop",
+          "t": 14.62
+        },
+        {
+          "target": "3",
+          "fx": "pop",
+          "t": 21.07
+        },
+        {
+          "target": "4",
+          "fx": "pop",
+          "t": 25.21
+        },
+        {
+          "target": "5",
+          "fx": "pop",
+          "t": 31.2
+        },
+        {
+          "target": "6",
+          "fx": "words",
+          "t": 35.8
+        }
       ]
     },
     {
@@ -781,6 +1103,53 @@
           "t0": 53.35,
           "t1": 61.18,
           "text": "The real contents come from the matrix, and are tailored once my project scope is confirmed."
+        }
+      ],
+      "slide_cues": [
+        {
+          "target": "2",
+          "fx": "pop",
+          "t": 7.25
+        },
+        {
+          "target": "3",
+          "fx": "wipe",
+          "t": 17.13
+        },
+        {
+          "target": "4",
+          "fx": "pop",
+          "t": 17.13
+        },
+        {
+          "target": "5",
+          "fx": "wipe",
+          "t": 22.65
+        },
+        {
+          "target": "6",
+          "fx": "pop",
+          "t": 22.65
+        },
+        {
+          "target": "2>4",
+          "fx": "rise",
+          "t": 27.49
+        },
+        {
+          "target": "4>4",
+          "fx": "rise",
+          "t": 27.49
+        },
+        {
+          "target": "6>4",
+          "fx": "rise",
+          "t": 27.49
+        },
+        {
+          "target": "7",
+          "fx": "words",
+          "t": 31.09
         }
       ]
     },
@@ -853,6 +1222,28 @@
           "t1": 58.37,
           "text": "Fourth, every policy source carries its retrieval date."
         }
+      ],
+      "slide_cues": [
+        {
+          "target": "2",
+          "fx": "rise",
+          "t": 10.22
+        },
+        {
+          "target": "3",
+          "fx": "rise",
+          "t": 23.78
+        },
+        {
+          "target": "4",
+          "fx": "rise",
+          "t": 33.2
+        },
+        {
+          "target": "5",
+          "fx": "rise",
+          "t": 54.34
+        }
       ]
     },
     {
@@ -908,6 +1299,53 @@
           "t0": 47.16,
           "t1": 53.15,
           "text": "and I welcome the panel’s guidance on whether this pace is realistic."
+        }
+      ],
+      "slide_cues": [
+        {
+          "target": "2.tr0",
+          "fx": "fade",
+          "t": 1.72
+        },
+        {
+          "target": "2.tr1",
+          "fx": "slide",
+          "t": 5.12
+        },
+        {
+          "target": "2.tr2",
+          "fx": "slide",
+          "t": 6.79
+        },
+        {
+          "target": "2.tr3",
+          "fx": "slide",
+          "t": 16.2
+        },
+        {
+          "target": "2.tr4",
+          "fx": "slide",
+          "t": 16.93
+        },
+        {
+          "target": "2.tr5",
+          "fx": "slide",
+          "t": 21.73
+        },
+        {
+          "target": "2.tr6",
+          "fx": "slide",
+          "t": 29.57
+        },
+        {
+          "target": "2.tr7",
+          "fx": "slide",
+          "t": 34.17
+        },
+        {
+          "target": "3",
+          "fx": "fade",
+          "t": 41.54
         }
       ]
     },
@@ -980,6 +1418,63 @@
           "t1": 60.5,
           "text": "And the roadmap is expert-reviewed, not field-tested, within the capstone period."
         }
+      ],
+      "slide_cues": [
+        {
+          "target": "2",
+          "fx": "rise",
+          "t": 1.72
+        },
+        {
+          "target": "2.li0",
+          "fx": "slide",
+          "t": 4.48
+        },
+        {
+          "target": "2.li1",
+          "fx": "slide",
+          "t": 10
+        },
+        {
+          "target": "2.li2",
+          "fx": "slide",
+          "t": 14.15
+        },
+        {
+          "target": "2.li3",
+          "fx": "slide",
+          "t": 18.29
+        },
+        {
+          "target": "2.li4",
+          "fx": "slide",
+          "t": 24.74
+        },
+        {
+          "target": "3",
+          "fx": "zoom",
+          "t": 31.65
+        },
+        {
+          "target": "3.li0",
+          "fx": "rise",
+          "t": 34.87
+        },
+        {
+          "target": "3.li1",
+          "fx": "rise",
+          "t": 39.06
+        },
+        {
+          "target": "3.li2",
+          "fx": "rise",
+          "t": 49.57
+        },
+        {
+          "target": "3.li3",
+          "fx": "rise",
+          "t": 55.09
+        }
       ]
     },
     {
@@ -1010,6 +1505,28 @@
           "t0": 15.16,
           "t1": 18.84,
           "text": "I welcome the panel’s questions and guidance."
+        }
+      ],
+      "slide_cues": [
+        {
+          "target": "2",
+          "fx": "wipe",
+          "t": 1.72
+        },
+        {
+          "target": "3",
+          "fx": "words",
+          "t": 5.21
+        },
+        {
+          "target": "0",
+          "fx": "drop",
+          "t": 13.91
+        },
+        {
+          "target": "1",
+          "fx": "words",
+          "t": 13.91
         }
       ]
     }
